@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Hospital</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar styles */
+        nav {
+            background-color: #4CAF50;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #45a049;
+            color: white;
+        }
+
+        nav a.active {
+            background-color: #2e7d32;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero h1 {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero p {
+          
+            top: 50%;
+            left: 70%;
+            
+        }
+
+        /* Content Section */
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .hospital-details {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            max-width: 800px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about-section {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .about-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            margin: 5px 0;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="index_page.html" class="active">Home</a>
+        <a href="services.php">Services</a>
+        <a href="patient_login_form.php">Login</a>
+        <a href="register_patient.php">Register</a>
+        <a href="about.php">About</a>
+       
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="banner.jpg" alt="Hospital Banner">
+        <h1>Welcome to ABC Hospital</h1>
+        <br>
+        <p>Your health is our priority. Explore our services and facilities today!</p>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <div class="hospital-details">
+            <h2>About ABC Hospital</h2>
+            <p>Welcome to ABC Hospital! We are dedicated to providing the highest quality healthcare services to our community. Our team of experienced doctors, nurses, and staff are here to ensure your well-being and comfort.</p>
+            <p>Our facilities are equipped with state-of-the-art technology to meet all your healthcare needs.</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <h2>Working Hours</h2>
+        <p><strong>Monday - Friday:</strong> 9:00 AM - 5:00 PM</p>
+        <p><strong>Saturday:</strong> 10:00 AM - 3:00 PM</p>
+        <p><strong>Sunday:</strong> Closed</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ABC Hospital. All rights reserved.</p>
+        <p>Contact us: +91 7547972652 | <a href="mailto:subhrasv@gmail.com">subhrasv@gmail.com</a></p>
+    </footer>
+</body>
+</html>
